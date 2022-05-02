@@ -11,7 +11,7 @@ In the deployment file the service Object will also be created
 
 
 ## How it is implmented
-- uses the official Image from Ubuntu: ubuntu/squid:4.13-21.10_edge
+- uses the official Image from Ubuntu: ```ubuntu/squid:4.13-21.10_edge```
 - creates a pod-port at 3128
 - creates a service and binds this pod-port to a clusterIP on port 3128
 
@@ -19,7 +19,7 @@ In the deployment file the service Object will also be created
 
 ## Test
 For testing purposes bind the service port to localhost
-kubectl port-forward service/squid-service 3128 3128
+```kubectl port-forward service/squid-service 3128 3128``
 
 
 ## hints/tips
