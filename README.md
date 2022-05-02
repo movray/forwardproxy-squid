@@ -19,7 +19,8 @@ In the deployment file the service Object will also be created
 
 ## Test
 For testing purposes bind the service port to localhost
-```kubectl port-forward service/squid-service 3128 3128``
+
+```kubectl port-forward service/squid-service 3128 3128```
 
 
 ## hints/tips
