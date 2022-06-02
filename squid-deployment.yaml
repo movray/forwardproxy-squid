@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: squid
-        image: ubuntu/squid:4.13-21.10_edge 
+        image: ubuntu/squid:5.2-22.04_edge 
         ports:
         - containerPort: 3128
           name: squid
