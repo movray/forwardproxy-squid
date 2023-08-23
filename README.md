@@ -1,4 +1,5 @@
 # forwardproxy-squid
+#
 
 ## Install
 simply first apply the config map then the deployment
