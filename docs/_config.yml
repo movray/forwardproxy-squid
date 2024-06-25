@@ -2,3 +2,12 @@ theme: jekyll-theme-cayman
 
 title: Mein Projekt
 description: Beschreibung meines Projekts
+
+# Navigation Bar Configuration
+navbar:
+  - name: Home
+    link: /
+  - name: Zusätzlicher Reiter 1
+    link: /additional_tab
+  - name: Zusätzlicher Reiter 2
+    link: /another_tab
