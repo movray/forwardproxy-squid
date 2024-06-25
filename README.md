@@ -42,8 +42,3 @@ The variable redir1 squid needs this to determine the identifer (acl) for this r
 If you want to add more redirects then extend the config map with adjusted values of this tree lines.
 
 
-[myfile](myfile) 
-
-
-
-
