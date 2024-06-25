@@ -40,3 +40,6 @@ every redirect block looks like this
 in this example all request going to debian.org (and/or to subdomains of it) will be forwarded with a 302 code to openbsd.org 
 The variable redir1 squid needs this to determine the identifer (acl) for this redirect. This (acl) identifier must be unique for every redirect block.
 If you want to add more redirects then extend the config map with adjusted values of this tree lines.
+
+
+[myfile](myfile) 
